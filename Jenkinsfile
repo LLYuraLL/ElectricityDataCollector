@@ -8,7 +8,7 @@ pipeline{
     }
     stage('Collect'){
       steps{
-        sh 'python3 Get_Spent_Amount.py'
+        sh 'python3 GetSpentAmount.py'
       }
     }
   }
